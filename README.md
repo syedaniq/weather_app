@@ -6,12 +6,6 @@ State Management: [BLoC](https://bloclibrary.dev/#/)
 
 ### screenshot
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 | iOS                                                       | Android                                                       |
 | --------------------------------------------------------- | ------------------------------------------------------------- |
 | <img src="screenshot_ios.png" alt="drawing" width="300"/> | <img src="screenshot_android.png" alt="drawing" width="254"/> |

@@ -4,7 +4,7 @@ This is a simple weather app built with [Flutter](https://flutter.dev/). In orde
 
 State Management: [BLoC](https://bloclibrary.dev/#/)
 
-### screenshot
+### screenshots
 
 | iOS                                                       | Android                                                       |
 | --------------------------------------------------------- | ------------------------------------------------------------- |

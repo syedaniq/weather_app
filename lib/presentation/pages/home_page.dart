@@ -35,31 +35,17 @@ class HomePage extends StatelessWidget {
                       width: MediaQuery.sizeOf(context).width,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
                           LocationText(state.weather.areaName!),
-                          const SizedBox(
-                            height: 8,
-                          ),
                           const GreetingText(),
-                          const SizedBox(
-                            height: 8,
-                          ),
                           WeatherImage(state.weather.weatherConditionCode!),
-                          const SizedBox(
-                            height: 8,
-                          ),
                           TemperatureText(
                             state.weather.temperature!.celsius!
                                 .round()
                                 .toString(),
                           ),
-                          const SizedBox(
-                            height: 8,
-                          ),
                           WeatherTypeText(state.weather.weatherMain!),
-                          const SizedBox(
-                            height: 8,
-                          ),
                           DateTimeText(state.weather.date!),
                           const SizedBox(
                             height: 32,
@@ -68,14 +54,8 @@ class HomePage extends StatelessWidget {
                             state.weather.sunrise!,
                             state.weather.sunset!,
                           ),
-                          const SizedBox(
-                            height: 8,
-                          ),
                           Divider(
                             color: Colors.white.withOpacity(0.75),
-                          ),
-                          const SizedBox(
-                            height: 8,
                           ),
                           TemperatureDataRow(
                             state.weather.tempMax!,

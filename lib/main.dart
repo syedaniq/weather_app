@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:weather_app/presentation/pages/home_page.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:weather_app/presentation/widgets/background/blur_background.dart';
 
 import 'domain/bloc/weather_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -35,8 +36,14 @@ class MainApp extends StatelessWidget {
             );
           } else {
             return const Scaffold(
-              body: Center(
-                child: CircularProgressIndicator(),
+              backgroundColor: Colors.black,
+              body: Stack(
+                children: [
+                  BlurBackground(),
+                  Center(
+                    child: CircularProgressIndicator(),
+                  ),
+                ],
               ),
             );
           }

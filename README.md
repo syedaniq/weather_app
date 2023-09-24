@@ -15,8 +15,8 @@ State Management: [BLoC](https://bloclibrary.dev/#/)
 
 Following features are missing currently
 
+- error handling
 - landscape mode
-- responsive design
 - unit, widget, integration tests
 - dynamic greeting depending on current time
 - dynamic background colors depending on weather

@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:weather_app/domain/bloc/weather_bloc.dart';
-import 'package:weather_app/presentation/widgets/sun_data_row.dart';
+import 'package:weather_app/presentation/widgets/sun-data/sun_data_row.dart';
 
-import '../widgets/blur_background.dart';
-import '../widgets/date_time_text.dart';
-import '../widgets/greeting_text.dart';
-import '../widgets/location_text.dart';
-import '../widgets/temperature_data_row.dart';
-import '../widgets/temperature_text.dart';
-import '../widgets/weather_image.dart';
-import '../widgets/weather_type_text.dart';
+import '../widgets/background/blur_background.dart';
+import '../widgets/main-data/date_time_text.dart';
+import '../widgets/topbar/greeting_text.dart';
+import '../widgets/topbar/location_text.dart';
+import '../widgets/temperature-data/temperature_data_row.dart';
+import '../widgets/main-data/temperature_text.dart';
+import '../widgets/weather-image/weather_image.dart';
+import '../widgets/main-data/weather_type_text.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

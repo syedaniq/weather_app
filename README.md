@@ -1,8 +1,8 @@
 # Weather App
 
-This is a simple weather app built with Flutter. In order to get the app running you need an Api Key from the OpenWeatherAPI.
+This is a simple weather app built with [Flutter](https://flutter.dev/). In order to get the app running you need an Api Key from the [OpenWeather API](https://openweathermap.org/api).
 
-State Management: BLoC
+State Management: [BLoC](https://bloclibrary.dev/#/)
 
 ### screenshot
 
@@ -20,9 +20,9 @@ Following features are missing currently
 
 ### dependencies
 
-- intl 
-- weather
-- equatable
-- geolocator
-- flutter_bloc
-- flutter_dotenv
+- [intl](https://pub.dev/packages/intl)
+- [weather](https://pub.dev/packages/weather)
+- [equatable](https://pub.dev/packages/equatable)
+- [geolocator](https://pub.dev/packages/geolocator)
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc)
+- [flutter_dotenv](https://pub.dev/packages/flutter_dotenv)

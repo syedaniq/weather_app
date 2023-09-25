@@ -18,6 +18,7 @@ Following features are missing currently
 - error handling
 - landscape mode
 - unit, widget, integration tests
+- weather images for the night time
 - dynamic greeting depending on current time
 - dynamic background colors depending on weather
 

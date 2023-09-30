@@ -46,9 +46,7 @@ class BlurBackground extends StatelessWidget {
             sigmaY: 100,
           ),
           child: Container(
-            decoration: const BoxDecoration(
-              color: Colors.transparent,
-            ),
+            color: Colors.transparent,
           ),
         ),
       ],
